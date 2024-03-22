@@ -34,7 +34,8 @@ EPICS_BASE = $(BASE_SITE_TOP)/$(EPICS_BASE_VER)
 
 IOCADMIN_MODULE_VERSION =
 
-IOCADMIN=/afs/slac/g/controls/development/users/lorelli/projects/rtems-testing/4.9.4/iocAdmin
+IOCADMIN=$(EPICS_MODULES)/iocAdmin
+AUTOSAVE=$(EPICS_MODULES)/autosave
 
 # Set RULES here if you want to use build rules from somewhere
 # other than EPICS_BASE:
