@@ -29,13 +29,22 @@
 # If using the sequencer, point SNCSEQ at its top directory:
 #SNCSEQ = $(MODULES)/seq-ver
 
+MYMODULES=/afs/slac/g/controls/development/users/lorelli/projects/rtems-testing/4.10.2/
+
 # EPICS_BASE should appear last so earlier modules can override stuff:
 EPICS_BASE = $(BASE_SITE_TOP)/$(EPICS_BASE_VER)
 
+#############################################
+# Module versions
+#############################################
 IOCADMIN_MODULE_VERSION =
+AUTOSAVE_MODULE_VERSION = R5.8-2.1.0
 
-IOCADMIN=$(EPICS_MODULES)/iocAdmin
-AUTOSAVE=$(EPICS_MODULES)/autosave
+#############################################
+# Module paths
+#############################################
+IOCADMIN=$(MYMODULES)/iocAdmin/$(IOCADMIN_MODULE_VERSION)
+AUTOSAVE=$(EPICS_MODULES)/autosave/$(AUTOSAVE_MODULE_VERSION)
 
 # Set RULES here if you want to use build rules from somewhere
 # other than EPICS_BASE:

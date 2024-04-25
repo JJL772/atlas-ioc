@@ -15,6 +15,9 @@ include $(TOP)/configure/CONFIG
 DB_INSTALLS += $(IOCADMIN)/db/iocAdminRTEMS.db
 IOCRELEASE_DB += iocRelease.db
 
+DB += test-records.db
+
+
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add
 # <anyname>_template = <templatename>

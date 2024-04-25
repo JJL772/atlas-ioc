@@ -1,0 +1,16 @@
+
+
+record(ai, "$(P):TEST_AI")
+{
+	field(VAL, "1")
+}
+
+record(longin, "$(P):Random0001")
+{
+	field(VAL, "2")
+	field(DTYP, "devLongRandom")
+	field(SCAN, "1 second")
+	field(INP, "@128,-64")
+}
+
+
