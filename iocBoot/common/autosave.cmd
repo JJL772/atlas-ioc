@@ -13,8 +13,8 @@ save_restoreSet_NumSeqFiles(10)
 save_restoreSet_SeqPeriodInSeconds(5)
 set_savefile_path("${TOP}/iocBoot/${IOC}/autosave")
 
-set_pass0_restoreFile("auto_settings.sav", "P=${IOC}")
-set_pass1_restoreFile("auto_settings.sav", "P=${IOC}")
+set_pass0_restoreFile("auto_positions.sav", "P=${IOC}")
+set_pass1_restoreFile("auto_positions.sav", "P=${IOC}")
 
 set_requestfile_path("${TOP}/iocBoot/${IOC}", "")
 set_requestfile_path("${TOP}/db", "")

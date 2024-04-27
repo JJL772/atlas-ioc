@@ -15,7 +15,7 @@ DBD += atlas.dbd
 # atlas.dbd will be made up from these files:
 atlas_DBD += base.dbd
 atlas_DBD += iocAdmin.dbd
-atlas_DBD += as.dbd asSupport.dbd
+atlas_DBD += asSupport.dbd
 atlas_DBD += atlasDev.dbd
 
 # Include dbd files from all support applications:
