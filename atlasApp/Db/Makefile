@@ -15,8 +15,8 @@ include $(TOP)/configure/CONFIG
 DB_INSTALLS += $(IOCADMIN)/db/iocAdminRTEMS.db
 IOCRELEASE_DB += iocRelease.db
 
-DB += test-records.db
-
+DB += atlasRecords.db
+DB += genRecords.db auto_positions.req
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add

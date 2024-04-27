@@ -1,0 +1,8000 @@
+
+record(longin, "$(P):Random0")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random1")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random2")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random3")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random4")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random5")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random6")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random7")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random8")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random9")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random10")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random11")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random12")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random13")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random14")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random15")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random16")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random17")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random18")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random19")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random20")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random21")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random22")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random23")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random24")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random25")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random26")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random27")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random28")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random29")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random30")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random31")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random32")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random33")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random34")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random35")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random36")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random37")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random38")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random39")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random40")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random41")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random42")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random43")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random44")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random45")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random46")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random47")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random48")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random49")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random50")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random51")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random52")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random53")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random54")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random55")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random56")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random57")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random58")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random59")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random60")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random61")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random62")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random63")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random64")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random65")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random66")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random67")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random68")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random69")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random70")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random71")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random72")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random73")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random74")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random75")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random76")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random77")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random78")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random79")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random80")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random81")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random82")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random83")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random84")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random85")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random86")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random87")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random88")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random89")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random90")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random91")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random92")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random93")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random94")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random95")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random96")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random97")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random98")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random99")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random100")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random101")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random102")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random103")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random104")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random105")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random106")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random107")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random108")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random109")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random110")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random111")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random112")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random113")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random114")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random115")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random116")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random117")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random118")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random119")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random120")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random121")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random122")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random123")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random124")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random125")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random126")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random127")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random128")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random129")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random130")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random131")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random132")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random133")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random134")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random135")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random136")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random137")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random138")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random139")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random140")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random141")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random142")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random143")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random144")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random145")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random146")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random147")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random148")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random149")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random150")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random151")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random152")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random153")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random154")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random155")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random156")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random157")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random158")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random159")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random160")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random161")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random162")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random163")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random164")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random165")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random166")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random167")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random168")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random169")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random170")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random171")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random172")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random173")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random174")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random175")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random176")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random177")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random178")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random179")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random180")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random181")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random182")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random183")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random184")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random185")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random186")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random187")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random188")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random189")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random190")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random191")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random192")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random193")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random194")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random195")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random196")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random197")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random198")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random199")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random200")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random201")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random202")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random203")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random204")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random205")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random206")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random207")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random208")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random209")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random210")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random211")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random212")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random213")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random214")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random215")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random216")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random217")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random218")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random219")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random220")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random221")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random222")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random223")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random224")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random225")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random226")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random227")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random228")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random229")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random230")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random231")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random232")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random233")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random234")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random235")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random236")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random237")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random238")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random239")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random240")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random241")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random242")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random243")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random244")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random245")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random246")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random247")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random248")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random249")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random250")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random251")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random252")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random253")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random254")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random255")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random256")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random257")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random258")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random259")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random260")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random261")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random262")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random263")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random264")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random265")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random266")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random267")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random268")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random269")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random270")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random271")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random272")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random273")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random274")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random275")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random276")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random277")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random278")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random279")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random280")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random281")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random282")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random283")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random284")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random285")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random286")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random287")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random288")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random289")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random290")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random291")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random292")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random293")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random294")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random295")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random296")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random297")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random298")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random299")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random300")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random301")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random302")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random303")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random304")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random305")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random306")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random307")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random308")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random309")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random310")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random311")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random312")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random313")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random314")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random315")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random316")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random317")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random318")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random319")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random320")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random321")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random322")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random323")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random324")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random325")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random326")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random327")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random328")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random329")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random330")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random331")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random332")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random333")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random334")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random335")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random336")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random337")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random338")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random339")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random340")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random341")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random342")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random343")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random344")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random345")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random346")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random347")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random348")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random349")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random350")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random351")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random352")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random353")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random354")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random355")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random356")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random357")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random358")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random359")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random360")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random361")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random362")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random363")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random364")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random365")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random366")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random367")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random368")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random369")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random370")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random371")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random372")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random373")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random374")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random375")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random376")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random377")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random378")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random379")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random380")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random381")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random382")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random383")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random384")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random385")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random386")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random387")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random388")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random389")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random390")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random391")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random392")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random393")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random394")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random395")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random396")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random397")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random398")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random399")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random400")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random401")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random402")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random403")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random404")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random405")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random406")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random407")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random408")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random409")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random410")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random411")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random412")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random413")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random414")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random415")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random416")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random417")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random418")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random419")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random420")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random421")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random422")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random423")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random424")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random425")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random426")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random427")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random428")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random429")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random430")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random431")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random432")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random433")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random434")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random435")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random436")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random437")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random438")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random439")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random440")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random441")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random442")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random443")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random444")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random445")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random446")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random447")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random448")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random449")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random450")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random451")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random452")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random453")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random454")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random455")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random456")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random457")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random458")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random459")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random460")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random461")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random462")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random463")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random464")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random465")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random466")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random467")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random468")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random469")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random470")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random471")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random472")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random473")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random474")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random475")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random476")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random477")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random478")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random479")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random480")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random481")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random482")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random483")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random484")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random485")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random486")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random487")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random488")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random489")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random490")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random491")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random492")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random493")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random494")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random495")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random496")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random497")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random498")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random499")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random500")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random501")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random502")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random503")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random504")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random505")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random506")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random507")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random508")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random509")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random510")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random511")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random512")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random513")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random514")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random515")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random516")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random517")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random518")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random519")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random520")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random521")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random522")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random523")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random524")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random525")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random526")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random527")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random528")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random529")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random530")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random531")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random532")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random533")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random534")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random535")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random536")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random537")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random538")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random539")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random540")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random541")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random542")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random543")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random544")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random545")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random546")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random547")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random548")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random549")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random550")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random551")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random552")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random553")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random554")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random555")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random556")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random557")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random558")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random559")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random560")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random561")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random562")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random563")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random564")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random565")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random566")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random567")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random568")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random569")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random570")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random571")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random572")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random573")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random574")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random575")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random576")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random577")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random578")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random579")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random580")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random581")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random582")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random583")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random584")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random585")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random586")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random587")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random588")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random589")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random590")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random591")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random592")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random593")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random594")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random595")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random596")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random597")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random598")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random599")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random600")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random601")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random602")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random603")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random604")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random605")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random606")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random607")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random608")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random609")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random610")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random611")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random612")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random613")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random614")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random615")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random616")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random617")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random618")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random619")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random620")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random621")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random622")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random623")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random624")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random625")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random626")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random627")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random628")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random629")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random630")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random631")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random632")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random633")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random634")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random635")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random636")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random637")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random638")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random639")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random640")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random641")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random642")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random643")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random644")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random645")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random646")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random647")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random648")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random649")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random650")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random651")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random652")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random653")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random654")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random655")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random656")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random657")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random658")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random659")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random660")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random661")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random662")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random663")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random664")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random665")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random666")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random667")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random668")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random669")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random670")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random671")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random672")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random673")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random674")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random675")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random676")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random677")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random678")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random679")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random680")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random681")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random682")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random683")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random684")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random685")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random686")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random687")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random688")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random689")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random690")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random691")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random692")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random693")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random694")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random695")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random696")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random697")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random698")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random699")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random700")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random701")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random702")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random703")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random704")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random705")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random706")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random707")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random708")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random709")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random710")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random711")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random712")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random713")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random714")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random715")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random716")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random717")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random718")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random719")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random720")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random721")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random722")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random723")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random724")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random725")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random726")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random727")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random728")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random729")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random730")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random731")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random732")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random733")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random734")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random735")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random736")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random737")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random738")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random739")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random740")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random741")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random742")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random743")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random744")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random745")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random746")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random747")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random748")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random749")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random750")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random751")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random752")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random753")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random754")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random755")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random756")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random757")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random758")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random759")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random760")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random761")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random762")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random763")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random764")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random765")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random766")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random767")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random768")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random769")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random770")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random771")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random772")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random773")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random774")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random775")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random776")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random777")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random778")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random779")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random780")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random781")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random782")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random783")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random784")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random785")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random786")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random787")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random788")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random789")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random790")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random791")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random792")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random793")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random794")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random795")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random796")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random797")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random798")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random799")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random800")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random801")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random802")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random803")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random804")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random805")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random806")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random807")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random808")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random809")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random810")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random811")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random812")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random813")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random814")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random815")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random816")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random817")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random818")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random819")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random820")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random821")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random822")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random823")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random824")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random825")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random826")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random827")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random828")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random829")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random830")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random831")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random832")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random833")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random834")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random835")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random836")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random837")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random838")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random839")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random840")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random841")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random842")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random843")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random844")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random845")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random846")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random847")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random848")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random849")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random850")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random851")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random852")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random853")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random854")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random855")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random856")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random857")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random858")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random859")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random860")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random861")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random862")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random863")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random864")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random865")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random866")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random867")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random868")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random869")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random870")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random871")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random872")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random873")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random874")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random875")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random876")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random877")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random878")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random879")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random880")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random881")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random882")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random883")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random884")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random885")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random886")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random887")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random888")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random889")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random890")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random891")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random892")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random893")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random894")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random895")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random896")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random897")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random898")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random899")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random900")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random901")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random902")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random903")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random904")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random905")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random906")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random907")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random908")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random909")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random910")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random911")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random912")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random913")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random914")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random915")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random916")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random917")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random918")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random919")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random920")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random921")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random922")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random923")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random924")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random925")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random926")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random927")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random928")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random929")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random930")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random931")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random932")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random933")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random934")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random935")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random936")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random937")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random938")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random939")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random940")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random941")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random942")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random943")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random944")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random945")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random946")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random947")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random948")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random949")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random950")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random951")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random952")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random953")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random954")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random955")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random956")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random957")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random958")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random959")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random960")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random961")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random962")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random963")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random964")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random965")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random966")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random967")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random968")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random969")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random970")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random971")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random972")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random973")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random974")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random975")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random976")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random977")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random978")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random979")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random980")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random981")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random982")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random983")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random984")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random985")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random986")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random987")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random988")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random989")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random990")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random991")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random992")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random993")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random994")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random995")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random996")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random997")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random998")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
+
+record(longin, "$(P):Random999")
+{
+        field(VAL, "2")
+        field(DTYP, "devLongRandom")
+        field(SCAN, "1 second")
+        field(INP, "@100,-100")
+}
