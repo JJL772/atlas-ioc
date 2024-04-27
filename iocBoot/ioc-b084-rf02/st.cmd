@@ -4,8 +4,8 @@
 ## everywhere it appears in this file
 
 
-setenv("LOCATION", "B84:RF02")
-setenv("IOC_NAME", "IOC:B84:RF02")
+setenv("LOCATION", "B084:RF02")
+setenv("IOC_NAME", "IOC:B084:RF02")
 setenv("ENGINEER", "Jeremy Lorelli (lorelli)")
 # Load common startup
 cexpsh("../../common/st.cmd.rtems")
@@ -18,7 +18,7 @@ cexpsh("iocBoot/common/init_hv.cmd")
 cd("../..")
 
 # Load obj file
-#ld("bin/RTEMS-mvme3100/atlas.obj")
+ld("bin/RTEMS-beatnik/atlas.obj")
 # Let's look at the load addresses
 lsmod()
 
@@ -27,10 +27,10 @@ dbLoadDatabase("dbd/atlas.dbd")
 atlas_registerRecordDeviceDriver(pdbbase)
 
 # System Location:
-epicsEnvSet("LOCA","B84")
+epicsEnvSet("LOCA","B084")
 
-epicsEnvSet("IOC_NAME","IOC:B84:RF02")
-epicsEnvSet("EVR_DEV1","EVR:B84:RF02")
+epicsEnvSet("IOC_NAME","IOC:B084:RF02")
+epicsEnvSet("EVR_DEV1","EVR:B084:RF02")
 epicsEnvSet("UNIT","RF02")
 epicsEnvSet("FAC","SYS0")
 
@@ -57,8 +57,11 @@ epicsEnvSet("FAC","SYS0")
 #dbLoadRecords("db/dbExample1.db", "user=V4_Axion")
 #dbLoadRecords("db/dbExample2.db", "user=V4_Axion, no=1, scan = 1 second")
 
-dbLoadRecords("db/iocAdminRTEMS.db","IOC=IOC:B84:RF02")
-#dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B84:RF02")
+dbLoadRecords("db/iocAdminRTEMS.db","IOC=IOC:B084:RF02")
+dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B084:RF02")
+
+# Load some test records
+dbLoadRecords("db/atlasRecords.db", "P=IOC:B084:RF02")
 
 # Let's load up some waveforms and scalars:
 #dbLoadDatabase("db/sinePower.db")

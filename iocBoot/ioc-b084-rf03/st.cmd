@@ -4,8 +4,8 @@
 ## everywhere it appears in this file
 
 
-setenv("LOCATION", "B84:RF03")
-setenv("IOC_NAME", "IOC:B84:RF03")
+setenv("LOCATION", "B084:RF03")
+setenv("IOC_NAME", "IOC:B084:RF03")
 setenv("ENGINEER", "Jeremy Lorelli (lorelli)")
 cd("../..")
 
@@ -19,10 +19,10 @@ dbLoadDatabase("dbd/atlas.dbd")
 atlas_registerRecordDeviceDriver(pdbbase)
 
 # System Location:
-epicsEnvSet("LOCA","B84")
+epicsEnvSet("LOCA","B084")
 
-epicsEnvSet("IOC_NAME","IOC:B84:RF03")
-epicsEnvSet("EVR_DEV1","EVR:B84:RF03")
+epicsEnvSet("IOC_NAME","IOC:B084:RF03")
+epicsEnvSet("EVR_DEV1","EVR:B084:RF03")
 epicsEnvSet("UNIT","RF03")
 epicsEnvSet("FAC","SYS0")
 
@@ -38,32 +38,34 @@ epicsEnvSet("FAC","SYS0")
 # ============================================================================
 # Load Timing System databases
 # ============================================================================
-#dbLoadRecords("db/Pattern.db","IOC=IOC:B84:RF03,SYS=SYS0")
+#dbLoadRecords("db/Pattern.db","IOC=IOC:B084:RF03,SYS=SYS0")
 ## Load EVR record instances
 # PMC-Carrier on VME: MRF EVR230
-#dbLoadRecords("db/EvrPmc.db","EVR=EVR:B84:RF03,CRD=0,SYS=SYS0")
-#dbLoadRecords("db/PMC-trig.db","IOC=IOC:B84:RF03,LOCA=B84,UNIT=03,SYS=SYS0")
+#dbLoadRecords("db/EvrPmc.db","EVR=EVR:B084:RF03,CRD=0,SYS=SYS0")
+#dbLoadRecords("db/PMC-trig.db","IOC=IOC:B084:RF03,LOCA=B084,UNIT=03,SYS=SYS0")
 # =============================================================================
 
 ## Load record instances
 #dbLoadRecords("db/dbExample1.db", "user=V4_Axion")
 #dbLoadRecords("db/dbExample2.db", "user=V4_Axion, no=1, scan = 1 second")
 
-dbLoadRecords("db/iocAdminRTEMS.db","IOC=IOC:B84:RF03")
-#dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B84:RF03")
+dbLoadRecords("db/iocAdminRTEMS.db","IOC=IOC:B084:RF03")
+dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B084:RF03")
+
+dbLoadRecords("db/atlasRecords.db", "P=IOC:B084:RF03")
 
 # Let's load up some waveforms and scalars:
 #dbLoadDatabase("db/sinePower.db")
 #dbLoadDatabase("db/sineEnergy.db")
 
 # database for BsaCore test case 0 #
-#  dbLoadRecords("db/bsaPulseId.db", "IOC=IOC:B84:RF03,SCAN=Event,EVNT=40,N=0")
-#  dbLoadRecords("db/Bsa.db", "DEVICE=IOC:B84:RF03:0,ATRB=PULSEID") 
+#  dbLoadRecords("db/bsaPulseId.db", "IOC=IOC:B084:RF03,SCAN=Event,EVNT=40,N=0")
+#  dbLoadRecords("db/Bsa.db", "DEVICE=IOC:B084:RF03:0,ATRB=PULSEID") 
 
 # database for BsaCore test case 1 #
   
-#  dbLoadRecords("db/bsaPulseId.db", "IOC=IOC:B84:RF03,SCAN=Event,EVNT=41,N=1")
-#  dbLoadRecords("db/Bsa.db", "DEVICE=IOC:B84:RF03:1,ATRB=PULSEID")
+#  dbLoadRecords("db/bsaPulseId.db", "IOC=IOC:B084:RF03,SCAN=Event,EVNT=41,N=1")
+#  dbLoadRecords("db/Bsa.db", "DEVICE=IOC:B084:RF03:1,ATRB=PULSEID")
 
 ## Run this to trace the stages of iocInit
 traceIocInit()
