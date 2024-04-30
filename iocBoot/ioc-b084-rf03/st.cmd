@@ -26,24 +26,24 @@ epicsEnvSet("EVR_DEV1","EVR:B084:RF03")
 epicsEnvSet("UNIT","RF03")
 epicsEnvSet("FAC","SYS0")
 
-# =========================================================
+#=========================================================
 # Initialize PMC Type EVR on MVME3100 with PMC Carrier
-# =========================================================
+#=========================================================
 #ErConfigure(0,0x000000,0x00,0,1)   #PMC type EVR230
 #evrInitialize()
 #bspExtVerbosity = 1
 #evrTimeFlag=0
-# =========================================================
+#=========================================================
 
-# ============================================================================
+#============================================================================
 # Load Timing System databases
-# ============================================================================
+#============================================================================
 #dbLoadRecords("db/Pattern.db","IOC=IOC:B084:RF03,SYS=SYS0")
 ## Load EVR record instances
 # PMC-Carrier on VME: MRF EVR230
 #dbLoadRecords("db/EvrPmc.db","EVR=EVR:B084:RF03,CRD=0,SYS=SYS0")
 #dbLoadRecords("db/PMC-trig.db","IOC=IOC:B084:RF03,LOCA=B084,UNIT=03,SYS=SYS0")
-# =============================================================================
+#=============================================================================
 
 ## Load record instances
 #dbLoadRecords("db/dbExample1.db", "user=V4_Axion")
@@ -53,6 +53,7 @@ dbLoadRecords("db/iocAdminRTEMS.db","IOC=IOC:B084:RF03")
 dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B084:RF03")
 
 dbLoadRecords("db/atlasRecords.db", "P=IOC:B084:RF03")
+dbLoadRecords("db/genRecords.db", "P=IOC:B084:RF03")
 
 # Let's load up some waveforms and scalars:
 #dbLoadDatabase("db/sinePower.db")
@@ -67,8 +68,13 @@ dbLoadRecords("db/atlasRecords.db", "P=IOC:B084:RF03")
 #  dbLoadRecords("db/bsaPulseId.db", "IOC=IOC:B084:RF03,SCAN=Event,EVNT=41,N=1")
 #  dbLoadRecords("db/Bsa.db", "DEVICE=IOC:B084:RF03:1,ATRB=PULSEID")
 
+#=========================================================
+# Init autosave
+#=========================================================
+. "iocBoot/common/autosave_rtems.cmd"
+
 ## Run this to trace the stages of iocInit
-traceIocInit()
+#traceIocInit()
 
 iocInit()
 
