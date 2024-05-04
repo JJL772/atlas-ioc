@@ -4,5 +4,6 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 
 cd iocBoot/sioc-tst-sys0
 
-./st.cmd
+mkdir -p autosave
+$DEBUGGER ../../bin/$EPICS_HOST_ARCH/atlas ./st.cmd
 
