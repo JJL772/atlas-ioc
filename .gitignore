@@ -9,3 +9,4 @@ envPaths
 .cache/
 iocBoot/*/autosave/
 .iocsh_history
+*.log
