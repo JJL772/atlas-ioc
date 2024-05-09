@@ -15,6 +15,8 @@ include $(TOP)/configure/CONFIG
 DB_INSTALLS += $(IOCADMIN)/db/iocAdminRTEMS.db
 IOCRELEASE_DB += iocRelease.db
 
+DB_INSTALLS += $(AUTOSAVE)/db/save_restoreStatus.db
+
 DB += atlasRecords.db
 DB += genRecords.db auto_positions.req
 
