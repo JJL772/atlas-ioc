@@ -27,6 +27,7 @@ atlas_DBD += atlasDev.dbd
 # atlas_registerRecordDeviceDriver.cpp derives from atlas.dbd
 atlas_SRCS += atlas_registerRecordDeviceDriver.cpp
 atlas_SRCS += atlasDevSup.c
+atlas_SRCS += atlasPva.cpp
 
 # Build the main IOC entry point on workstation OSs.
 atlas_SRCS_DEFAULT += atlasMain.cpp
@@ -38,7 +39,7 @@ atlas_SRCS_vxWorks += -nil-
 # Finally link to the EPICS Base libraries
 atlas_LIBS += devIocStats
 atlas_LIBS += autosave
-atlas_LIBS += $(EPICS_BASE_IOC_LIBS)
+atlas_LIBS += $(EPICS_BASE_IOC_LIBS) $(EPICS_BASE_PVA_CORE_LIBS)
 
 #===========================
 

@@ -20,7 +20,6 @@ cd "${TOP}/iocBoot/${IOC}"
 
 save_restoreSet_CAReconnect(1)
 
-iocInit
+atlasPvaInit("${IOC}")
 
-## Start any sequence programs
-#seq sncxxx,"user=lorelli"
+iocInit

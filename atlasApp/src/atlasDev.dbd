@@ -1,2 +1,3 @@
 device(longin, INST_IO, devLongRandom, "devLongRandom")
 
+registrar(atlasPvaRegister)
