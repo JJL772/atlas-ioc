@@ -3,7 +3,6 @@
 ## You may have to change Jupiter to something else
 ## everywhere it appears in this file
 
-
 setenv("LOCATION", "B084:RF03")
 setenv("IOC_NAME", "IOC:B084:RF03")
 setenv("ENGINEER", "Jeremy Lorelli (lorelli)")
@@ -25,6 +24,14 @@ epicsEnvSet("IOC_NAME","IOC:B084:RF03")
 epicsEnvSet("EVR_DEV1","EVR:B084:RF03")
 epicsEnvSet("UNIT","RF03")
 epicsEnvSet("FAC","SYS0")
+
+# Get rid of /data and /dat
+unmount("/data")
+unmount("/dat")
+
+# Let autosave manage the mount. Syntax is user@host, host, nfsServerPath[:mountpoint]
+# The second parameter seems to be unused...
+save_restoreSet_NFSHost("8412.2211@172.23.20.118", "172.23.20.118", "/vol/vol1/g.lcls/epics/ioc/data/ioc-b084-rf03:/data")
 
 dbLoadRecords("db/iocAdminRTEMS.db","IOC=IOC:B084:RF03")
 #dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B084:RF03")
