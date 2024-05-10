@@ -18,7 +18,7 @@ IOCRELEASE_DB += iocRelease.db
 DB_INSTALLS += $(AUTOSAVE)/db/save_restoreStatus.db
 
 DB += atlasRecords.db
-DB += genRecords.db auto_positions.req
+DB += genRecords.db info_positions.req info_settings.req
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add

@@ -21,7 +21,7 @@ with open(args.o, 'w') as fp:
     for i in range(0, args.n):
         fp.write(templ.replace('$$NUM$$', str(i)).replace('$$HIGH$$', '100').replace('$$LOW$$', '-100'))
 
-with open('auto_positions.req', 'w') as fp:
+with open('info_positions.req', 'w') as fp:
     for i in range(0, args.n):
         fp.write(f'$(P)Random{i}\n')
 
