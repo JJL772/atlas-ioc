@@ -4,3 +4,5 @@ include $(RTEMS_SITE_TOP)/target/$(RTEMS_PATCHLVL)/$(RTEMS_TARGET_CPU)-rtems/$(R
 include $(RTEMS_CUSTOM)
 include $(CONFIG.CC)
 
+# Unset so we dont strip symbols
+OP_SYS_LDFLAGS=

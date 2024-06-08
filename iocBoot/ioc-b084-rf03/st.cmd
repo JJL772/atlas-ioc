@@ -8,6 +8,10 @@ setenv("IOC_NAME", "IOC:B084:RF03")
 setenv("ENGINEER", "Jeremy Lorelli (lorelli)")
 cd("../..")
 
+# Start the debugger
+ld("rtems-gdb-stub.obj")
+rtems_gdb_start(200,0)
+
 # Load obj file
 ld("bin/RTEMS-mvme3100/atlas.obj")
 # Let's look at the load addresses
@@ -40,6 +44,8 @@ dbLoadRecords("db/save_restoreStatus.db", "P=IOC:B084:RF03:")
 
 dbLoadRecords("db/atlasRecords.db", "P=IOC:B084:RF03")
 dbLoadRecords("db/genRecords.db", "P=IOC:B084:RF03")
+
+save_restoreSet_SeqPeriodInSeconds(20)
 
 #=========================================================
 # Init autosave
