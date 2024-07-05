@@ -26,6 +26,9 @@
 #MODULES = /path/to/modules
 #MYMODULE = $(MODULES)/my-module
 
+# Set to anything but YES if you are building for EPICS 3.14 or earlier
+EPICS_V7=YES
+
 # If using the sequencer, point SNCSEQ at its top directory:
 #SNCSEQ = $(MODULES)/seq-ver
 
