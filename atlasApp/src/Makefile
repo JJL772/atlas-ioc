@@ -15,8 +15,14 @@ DBD += atlas.dbd
 # atlas.dbd will be made up from these files:
 atlas_DBD += base.dbd
 atlas_DBD += iocAdmin.dbd
+ifeq ($(EPICS_V7),YES)
 atlas_DBD += asSupport.dbd
+atlas_DBD += atlasPva.dbd
+else
+atlas_DBD += autosaveSupport.dbd
+endif
 atlas_DBD += atlasDev.dbd
+
 
 # Include dbd files from all support applications:
 #atlas_DBD += xxx.dbd
@@ -27,7 +33,9 @@ atlas_DBD += atlasDev.dbd
 # atlas_registerRecordDeviceDriver.cpp derives from atlas.dbd
 atlas_SRCS += atlas_registerRecordDeviceDriver.cpp
 atlas_SRCS += atlasDevSup.c
+ifeq ($(EPICS_V7),YES)
 atlas_SRCS += atlasPva.cpp
+endif
 
 # Build the main IOC entry point on workstation OSs.
 atlas_SRCS_DEFAULT += atlasMain.cpp

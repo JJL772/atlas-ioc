@@ -18,7 +18,9 @@ IOCRELEASE_DB += iocRelease.db
 DB_INSTALLS += $(AUTOSAVE)/db/save_restoreStatus.db
 
 DB += atlasRecords.db
-DB += genRecords.db info_positions.req info_settings.req
+DB += genRecords.db 
+# Don't ask. This is BS for broken 3.14 rules
+DB_INSTALLS += $(TOP)/atlasApp/Db/info_settings.req $(TOP)/atlasApp/Db/info_positions.req
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add
