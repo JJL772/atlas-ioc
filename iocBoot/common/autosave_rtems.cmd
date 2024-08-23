@@ -12,7 +12,7 @@ save_restoreSet_IncompleteSetsOk(1)
 
 # Specify where request and save files can be located (If this is a mount, we need to omit the /data prefix)
 set_requestfile_path("/data/autosave-req")
-set_savefile_path("autosave")
+set_savefile_path("/data/autosave")
 save_restoreSet_status_prefix(getenv("IOC_NAME"))
 addenv("IOC_NAME","P=",1)
 dbLoadRecords("db/save_restoreStatus.db",getenv("IOC_NAME"))
