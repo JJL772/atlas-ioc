@@ -9,6 +9,8 @@ DIRS += $(wildcard *App)
 DIRS += $(wildcard *Top)
 DIRS += $(wildcard iocBoot)
 
+atlasApp_DEPEND_DIRS += netUtilsApp
+
 # The build order is controlled by these dependency rules:
 
 # All dirs except configure depend on configure
