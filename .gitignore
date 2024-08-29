@@ -11,3 +11,4 @@ iocBoot/*/autosave/
 .iocsh_history
 *.log
 *.local
+/include/

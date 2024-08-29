@@ -1,8 +1,0 @@
-
-RTEMS_SITE_TOP=/afs/slac/package/rtems/4.10.2
-include $(RTEMS_SITE_TOP)/target/$(RTEMS_PATCHLVL)/$(RTEMS_TARGET_CPU)-rtems/$(RTEMS_BSP)/Makefile.inc
-include $(RTEMS_CUSTOM)
-include $(CONFIG.CC)
-
-# Unset so we dont strip symbols
-OP_SYS_LDFLAGS=
