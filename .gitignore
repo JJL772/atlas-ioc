@@ -10,3 +10,4 @@ envPaths
 iocBoot/*/autosave/
 .iocsh_history
 *.log
+*.local

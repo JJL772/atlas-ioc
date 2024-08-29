@@ -35,6 +35,12 @@ CROSS_COMPILER_TARGET_ARCHS = RTEMS-mvme3100 RTEMS-beatnik
 #HOST_OPT = NO
 #CROSS_OPT = NO
 
+# Enable EPICS v7
+EPICS_V7=YES
+
+# Enable C++11
+CXX11=YES
+
 # These allow developers to override the CONFIG_SITE variable
 # settings without having to modify the configure/CONFIG_SITE
 # file itself.

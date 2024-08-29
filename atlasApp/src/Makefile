@@ -17,12 +17,15 @@ atlas_DBD += base.dbd
 atlas_DBD += iocAdmin.dbd
 ifeq ($(EPICS_V7),YES)
 atlas_DBD += asSupport.dbd
-atlas_DBD += atlasPva.dbd
+#atlas_DBD += atlasPva.dbd
 else
 atlas_DBD += autosaveSupport.dbd
 endif
 atlas_DBD += atlasDev.dbd
 
+ifeq ($(CXX11),YES)
+USR_CXXFLAGS=-std=c++11
+endif
 
 # Include dbd files from all support applications:
 #atlas_DBD += xxx.dbd
@@ -34,7 +37,7 @@ atlas_DBD += atlasDev.dbd
 atlas_SRCS += atlas_registerRecordDeviceDriver.cpp
 atlas_SRCS += atlasDevSup.c
 ifeq ($(EPICS_V7),YES)
-atlas_SRCS += atlasPva.cpp
+#atlas_SRCS += atlasPva.cpp
 endif
 
 # Build the main IOC entry point on workstation OSs.
@@ -47,7 +50,10 @@ atlas_SRCS_vxWorks += -nil-
 # Finally link to the EPICS Base libraries
 atlas_LIBS += devIocStats
 atlas_LIBS += autosave
-atlas_LIBS += $(EPICS_BASE_IOC_LIBS) $(EPICS_BASE_PVA_CORE_LIBS)
+atlas_LIBS += $(EPICS_BASE_IOC_LIBS) 
+ifeq ($(EPICS_V7),YES)
+atlas_LIBS += $(EPICS_BASE_PVA_CORE_LIBS)
+endif
 
 #===========================
 
