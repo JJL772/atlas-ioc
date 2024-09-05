@@ -16,7 +16,7 @@ save_restoreSet_NumSeqFiles(10)
 save_restoreSet_SeqPeriodInSeconds(5)
 
 # Configure save/request paths
-set_savefile_path("${TOP}/iocBoot/${IOC}/autosave")
+set_savefile_path("${IOC_DATA}/${IOC}/autosave")
 #set_requestfile_path("${TOP}/iocBoot/${IOC}/autosave-req")
 
 set_pass0_restoreFile("info_positions.sav", "P=${IOC}")
