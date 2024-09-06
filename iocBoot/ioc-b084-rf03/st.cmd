@@ -34,14 +34,15 @@ epicsEnvSet("FAC","SYS0")
 # /data through autosave, giving it management control over
 # the mount. This allows autosave to automatically remount
 # /data if saves start failing.
+# NOTE 09/05/24: DISABLED on S3DF for now
 #===========================================================
 # Get rid of /data and /dat
-unmount("/data")
-unmount("/dat")
+#unmount("/data")
+#unmount("/dat")
 
 # Let autosave manage the mount. Syntax is user@host, host, nfsServerPath[:mountpoint]
 # The second parameter seems to be unused...
-save_restoreSet_NFSHost("8412.2211@172.23.20.118", "172.23.20.118", "/vol/vol1/g.lcls/epics/ioc/data/ioc-b084-rf03:/data")
+#save_restoreSet_NFSHost("8412.2211@172.23.20.118", "172.23.20.118", "/vol/vol1/g.lcls/epics/ioc/data/ioc-b084-rf03:/data")
 
 # Wait for saves to fail 10 times before attempting a remount (this is the default)
 #save_restoreRemountThreshold = 10
