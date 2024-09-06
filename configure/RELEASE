@@ -52,4 +52,5 @@ AUTOSAVE=$(EPICS_MODULES)/autosave/$(AUTOSAVE_MODULE_VERSION)
 # without having to modify the configure/RELEASE file itself.
 -include $(TOP)/../RELEASE.local
 -include $(TOP)/configure/RELEASE.local
+-include $(TOP)/../../RELEASE_SITE
 -include $(TOP)/RELEASE_SITE
