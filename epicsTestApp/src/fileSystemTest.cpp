@@ -13,11 +13,14 @@
 #include <epicsMutex.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include <epicsTime.h>
 
 #include "testUtils.h"
 #include "getopt_s.h"
 
 static const float FILE_OP_WAIT = 5;
+
+static const float MIB = 1024 * 1024;
 
 static void fs_start_test(const iocshArgBuf* buf);
 static void fs_report_test(const iocshArgBuf* buf);
@@ -64,6 +67,9 @@ struct test_s {
 	char* file;
 	epicsMutex mutex;	// Only needed to prevent races in the fsTestReport function. a HACK!
 	int run;
+    double read_bytesPerSec;
+    double write_bytesPerSec;
+    double size_bytes;
 };
 struct test_s* s_tests = NULL;
 
@@ -73,7 +79,7 @@ struct thread_param_s {
 	struct test_s* test;
 };
 
-static struct thread_param_s* create_thread_param(struct test_s* test, size_t sz) {
+static struct thread_param_s* create_thread_param(struct test_s* test, size_t sz, const char* dir) {
 	struct thread_param_s* param = new thread_param_s();
 
 	char cwd[256];
@@ -81,7 +87,7 @@ static struct thread_param_s* create_thread_param(struct test_s* test, size_t sz
 
 	static int n = 0;
 	char buf[512];
-	(void)snprintf(buf, sizeof(buf), "%s/testfile%d.txt", cwd, n++);
+	(void)snprintf(buf, sizeof(buf), "%s/testfile%d.txt", dir ? dir : cwd, n++);
 	param->filename = epicsStrDup(buf);
 	param->fsz = sz;
 	param->test = test;
@@ -95,12 +101,16 @@ static void fs_start_test(const iocshArgBuf* buf) {
 
 	struct test_s* s = new test_s();
 
-	thread_param_s* param = create_thread_param(s, argc > 1 ? parse_byte_size(argv[1]) : 16384);
+    size_t sz = argc > 1 ? parse_byte_size(argv[1]) : 16384;
+
+	thread_param_s* param = create_thread_param(s, sz, argc > 2 ? argv[2] : NULL);
 
 	s->next = s_tests;
 	s->num = 0;
 	s->failures = 0;
 	s->run = 1;
+    s->size_bytes = sz;
+    s->read_bytesPerSec = s->write_bytesPerSec = 0;
 	s->file = epicsStrDup(param->filename); // Sucks to duplicate but I dont want to cause memory bugs with my mistakes
 	s->thr = epicsThreadCreate("fsTestThread", epicsThreadPriorityLow, epicsThreadStackMedium, fs_test_thread, param); // Do this last!
 	s_tests = s;
@@ -111,16 +121,26 @@ static void fs_stop_tests(const iocshArgBuf* buf) {
 		s->run = 0;
 }
 
-static void fs_report_test(const iocshArgBuf* buf) {
+/** Accessible from cexpsh */
+void fsTestReport() {
 	for (test_s* s = s_tests; s; s = s->next) {
 		epicsGuard<epicsMutex> guard(s->mutex);
-		epicsStdoutPrintf("%s, %d iterations and %d failures, %f%% fail rate. (%s)\n",
-			s->file, s->num, s->failures, float(s->failures) / float(s->num ? s->num : 1), s->run ? "RUNNING" : (s->failures > 0 ? "FAIL" : "SUCCESS"));
+		epicsStdoutPrintf("%s, %d iterations and %d failures, %.2f%% fail rate, write %.2f MiB/s, read %.2f MiB/s. (%s)\n",
+			s->file, s->num, s->failures, float(s->failures) / float(s->num ? s->num : 1), s->write_bytesPerSec / MIB, s->read_bytesPerSec / MIB,
+            s->run ? "RUNNING" : (s->failures > 0 ? "FAIL" : "SUCCESS"));
 	}
+}
+
+static void fs_report_test(const iocshArgBuf* buf) {
+    fsTestReport();
 }
 
 static double rand_sleep_time(double interval) {
 	return interval + interval * (double(rand() / RAND_MAX) - 0.5);
+}
+
+static void update_average(double& avg, int num, double newVal) {
+    avg = (num * avg + newVal) / (num + 1);
 }
 
 static void fs_test_thread(void* param) {
@@ -167,6 +187,9 @@ static void fs_test_thread(void* param) {
 			// Fill working buffer with the test number
 			memset(buf, p->test->num, workBufSize);
 
+            epicsTimeStamp tstart;
+            epicsTimeGetCurrent(&tstart);
+
 			// Rewind to the start of the file...
 			if (lseek(fd, 0, SEEK_SET) != 0) {
 				epicsStdoutPrintf("%s lseek failed (%s): %s\n", get_time(tb, sizeof(tb)), p->filename, strerror(errno));
@@ -183,6 +206,11 @@ static void fs_test_thread(void* param) {
 					break;
 				toWrite -= ret;
 			}
+
+            epicsTimeStamp tend;
+            epicsTimeGetCurrent(&tend);
+
+            update_average(p->test->write_bytesPerSec, p->test->num, p->test->size_bytes / (epicsTimeDiffInSeconds(&tend, &tstart) + 0.001));
 
 			// Error case, incomplete write
 			if (toWrite > 0) {
@@ -206,6 +234,9 @@ static void fs_test_thread(void* param) {
 			epicsThreadSleep(rand_sleep_time(FILE_OP_WAIT));
 
 			epicsGuard<epicsMutex> guard(p->test->mutex);
+
+            epicsTimeStamp tstart;
+            epicsTimeGetCurrent(&tstart);
 
 			// Rewind to the start of the file...
 			if (lseek(fd, 0, SEEK_SET) != 0) {
@@ -234,7 +265,18 @@ static void fs_test_thread(void* param) {
 				}
 			}
 
+            epicsTimeStamp tend;
+            epicsTimeGetCurrent(&tend);
+
+            update_average(p->test->read_bytesPerSec, p->test->num, p->test->size_bytes / (epicsTimeDiffInSeconds(&tend, &tstart) + 0.001));
+
 			++p->test->num;
+
+            // Print diagnostics after each 128 iters
+            if (p->test->num % 128 == 0) {
+                printf("%s: %d iterations, %d failures (%.2f%% fail rate), write %.2f MiB/s, read %.2f MiB/s\n", p->test->file, p->test->num, p->test->failures, float(p->test->failures) / float(p->test->num),
+                        p->test->write_bytesPerSec / MIB, p->test->read_bytesPerSec / MIB);
+            }
 		}
 
 		epicsThreadSleep(rand_sleep_time(FILE_OP_WAIT));
