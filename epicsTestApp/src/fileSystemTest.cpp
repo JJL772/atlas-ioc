@@ -143,6 +143,16 @@ static void update_average(double& avg, int num, double newVal) {
     avg = (num * avg + newVal) / (num + 1);
 }
 
+#define EVERY_X(x, _code) do {          \
+    static unsigned long long __m = 0;  \
+    if (__m % x == 0) {                 \
+        ++__m;                          \
+        (_code);                        \
+    }                                   \
+} while(0)
+
+#define ERROR_SLEEP 10
+
 static void fs_test_thread(void* param) {
 	struct thread_param_s* p = (struct thread_param_s*)param;
 	epicsThreadSleep(1); // Delay start for a second
@@ -151,7 +161,7 @@ static void fs_test_thread(void* param) {
 	int fd = open(p->filename, O_CREAT | O_RDWR | O_TRUNC, 0666);
 	for (int i = 0; fd < 0 && i < 10; ++i) {
 		epicsStdoutPrintf("File %s failed to open: %s\n", p->filename, strerror(errno));
-		epicsThreadSleep(0.1); // Stall 100ms, try again
+		epicsThreadSleep(1); // Stall 1s, try again
 		fd = open(p->filename, O_CREAT | O_RDWR | O_TRUNC, 0666);
 	}
 
@@ -192,9 +202,9 @@ static void fs_test_thread(void* param) {
 
 			// Rewind to the start of the file...
 			if (lseek(fd, 0, SEEK_SET) != 0) {
-				epicsStdoutPrintf("%s lseek failed (%s): %s\n", get_time(tb, sizeof(tb)), p->filename, strerror(errno));
+				EVERY_X(10, epicsStdoutPrintf("%s lseek failed (%s): %s\n", get_time(tb, sizeof(tb)), p->filename, strerror(errno)));
 				++p->test->failures;
-				epicsThreadSleep(0.05);
+				epicsThreadSleep(ERROR_SLEEP);
 				continue;
 			}
 
@@ -202,6 +212,7 @@ static void fs_test_thread(void* param) {
 			ssize_t toWrite = p->fsz;
 			while (toWrite > 0) {
 				ssize_t ret = write(fd, buf, workBufSize > toWrite ? toWrite : workBufSize);
+                fsync(fd);
 				if (ret < 0)
 					break;
 				toWrite -= ret;
@@ -215,16 +226,16 @@ static void fs_test_thread(void* param) {
 			// Error case, incomplete write
 			if (toWrite > 0) {
 				++p->test->failures;
-				epicsStdoutPrintf("%s write failed (%s): %s\n", get_time(tb, sizeof(tb)), p->filename, strerror(errno));
-				epicsThreadSleep(0.05);
+				EVERY_X(10, epicsStdoutPrintf("%s write failed (%s): %s\n", get_time(tb, sizeof(tb)), p->filename, strerror(errno)));
+				epicsThreadSleep(ERROR_SLEEP);
 				continue;
 			}
 
 			// Finally, flush
 			if (fsync(fd) > 0) {
-				epicsStdoutPrintf("%s fsync failed (%s): %s\n", get_time(tb, sizeof(tb)), p->filename, strerror(errno));
+				EVERY_X(10, epicsStdoutPrintf("%s fsync failed (%s): %s\n", get_time(tb, sizeof(tb)), p->filename, strerror(errno)));
 				++p->test->failures;
-				epicsThreadSleep(0.05);
+				epicsThreadSleep(ERROR_SLEEP);
 				continue;
 			}
 		}
@@ -240,9 +251,9 @@ static void fs_test_thread(void* param) {
 
 			// Rewind to the start of the file...
 			if (lseek(fd, 0, SEEK_SET) != 0) {
-				epicsStdoutPrintf("%s lseek failed (%s): %s\n", get_time(tb, sizeof(tb)), p->filename, strerror(errno));
+				EVERY_X(10, epicsStdoutPrintf("%s lseek failed (%s): %s\n", get_time(tb, sizeof(tb)), p->filename, strerror(errno)));
 				++p->test->failures;
-				epicsThreadSleep(0.05);
+				epicsThreadSleep(ERROR_SLEEP);
 				continue;
 			}
 
@@ -250,18 +261,19 @@ static void fs_test_thread(void* param) {
 			while(toRead > 0) {
 				ssize_t ret = read(fd, buf, workBufSize > toRead ? toRead : workBufSize);
 				if (ret < 0) {
-					epicsStdoutPrintf("%s read failed (%s): %s\n", get_time(tb, sizeof(tb)), p->filename, strerror(errno));
+					EVERY_X(10, epicsStdoutPrintf("%s read failed (%s): %s\n", get_time(tb, sizeof(tb)), p->filename, strerror(errno)));
 					++p->test->failures;
-					epicsThreadSleep(0.05);
+					epicsThreadSleep(ERROR_SLEEP);
 					break;
 				}
+                fsync(fd);
 				toRead -= ret;
 
 				if (!memcheck_fast(buf, p->test->num, ret)) {
-					epicsStdoutPrintf("%s data failed to validate %d expected, but got something else (%s)\n", get_time(tb,sizeof(tb)), p->test->num,
-						p->filename);
+					EVERY_X(10, epicsStdoutPrintf("%s data failed to validate %d expected, but got something else (%s)\n", get_time(tb,sizeof(tb)), p->test->num,
+						p->filename));
 					++p->test->failures;
-					epicsThreadSleep(0.05);
+					epicsThreadSleep(ERROR_SLEEP);
 				}
 			}
 
