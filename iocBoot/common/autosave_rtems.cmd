@@ -45,7 +45,7 @@ save_restoreSet_RetrySeconds(60)
 monitorfile=malloc(512)
 snprintf(monitorfile, 512, "P=%s", getenv("IOC_NAME"))
 
-create_monitor_set("info_positions.req", 5, monitorfile)
+#create_monitor_set("info_positions.req", 5, monitorfile)
 #create_monitor_set("info_settings.req", 30, monitorfile)
 
 free(monitorfile)

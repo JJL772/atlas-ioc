@@ -84,3 +84,4 @@ iocInit()
 ## Start any sequence programs
 #seq(sncExample, "user=V4_Axion")
 
+# vim: syn=csh

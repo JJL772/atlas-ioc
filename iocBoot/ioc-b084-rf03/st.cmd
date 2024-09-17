@@ -63,6 +63,7 @@ save_restoreSet_SeqPeriodInSeconds(20)
 # Init autosave
 #=========================================================
 . "iocBoot/common/autosave_rtems.cmd"
+. "iocBoot/common/start_restore.cmd"
 
 ## Run this to trace the stages of iocInit
 #traceIocInit()

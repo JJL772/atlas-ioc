@@ -14,6 +14,7 @@ record(longin, "$(P)Random$$NUM$$")
         field(DTYP, "devLongRandom")
         field(SCAN, "1 second")
         field(INP, "@$$HIGH$$,$$LOW$$")
+        info(autosaveFields, "VAL EGU DESC")
 }
 '''
 

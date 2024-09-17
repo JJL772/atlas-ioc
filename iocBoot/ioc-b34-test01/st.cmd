@@ -59,7 +59,8 @@ dbLoadRecords("db/save_restoreStatus.db", "P=IOC:B34:TEST01:")
 #=========================================================
 # Init autosave
 #=========================================================
-#. "iocBoot/common/autosave_rtems.cmd"
+. "iocBoot/common/autosave_rtems.cmd"
+. "iocBoot/common/start_restore.cmd"
 
 ## Run this to trace the stages of iocInit
 #traceIocInit()
