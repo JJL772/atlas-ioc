@@ -170,7 +170,7 @@ static void fs_test_thread(void* param) {
 		return;
 	}
 
-	const ssize_t workBufSize = 2048;
+	const ssize_t workBufSize = 512;
 
 	epicsUInt8* buf = (epicsUInt8*)aligned_alloc_p(16, workBufSize);
 	if (!buf) {
@@ -181,12 +181,6 @@ static void fs_test_thread(void* param) {
 	epicsStdoutPrintf("Opened %s, starting test. requested size is %zu bytes\n", p->filename, p->fsz);
 
 	char tb[128];
-
-	// Generate "random" indices to validate
-	const int NUM_RANDOMS = 16;
-	short randNums[NUM_RANDOMS];
-	for (int i = 0; i < NUM_RANDOMS; ++i)
-		randNums[i] = rand() % workBufSize;
 
 	while(p->test->run) {
 
