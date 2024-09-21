@@ -14,6 +14,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <epicsTime.h>
+#include <math.h>
+#include <epicsAtomic.h>
 
 #include "testUtils.h"
 #include "getopt_s.h"
@@ -27,6 +29,8 @@ static void fs_report_test(const iocshArgBuf* buf);
 static void fs_test_thread(void*);
 static void fs_stop_tests(const iocshArgBuf* buf);
 static size_t parse_byte_size(const char* sz);
+static void dummyThreadProc(void* p);
+static void fs_test_saturate(const iocshArgBuf* buf);
 
 void fsTest_register() {
 	static const iocshArg startTestArgv = {
@@ -55,6 +59,13 @@ void fsTest_register() {
 		NULL
 	};
 	iocshRegister(&testStop, fs_stop_tests);
+
+    static const iocshFuncDef testSaturate = {
+        "fsTestSaturate",
+        0,
+        NULL
+    };
+    iocshRegister(&testSaturate, fs_test_saturate);
 }
 
 epicsExportRegistrar(fsTest_register);
@@ -311,4 +322,26 @@ static size_t parse_byte_size(const char* sz) {
 		break;
 	}
 	return s;
+}
+
+static void fs_test_saturate(const iocshArgBuf* buf) {
+    double* r = new double();
+    *r = 1;
+    epicsThreadCreate("atlasDummy", epicsThreadPriorityHigh, epicsThreadStackMedium, dummyThreadProc, r);
+    epicsStdoutPrintf("Created thread 'atlasDummy'\n");
+}
+
+static void dummyThreadProc(void* p) {
+    double* d = (double*)p;
+    double fl = *d;
+    while (1) {
+        for (int i = 0; i < 10000; ++i) {
+            *d = sin(*d) - (1.0/(0.5+log(fl)));
+            *d += cos(*d) + sin(*d) - exp(*d);
+            fl *= 2;
+//            if (i % 16384)
+//                epicsThreadSleep(0);
+        }
+        epicsThreadSleep(0.01);
+    }
 }

@@ -52,7 +52,7 @@ dbLoadRecords("db/iocAdminRTEMS.db","IOC=IOC:B34:TEST01")
 dbLoadRecords("db/save_restoreStatus.db", "P=IOC:B34:TEST01:")
 
 #dbLoadRecords("db/atlasRecords.db", "P=IOC:B34:TEST01")
-#dbLoadRecords("db/genRecords.db", "P=IOC:B34:TEST01")
+dbLoadRecords("db/genRecords.db", "P=IOC:B34:TEST01")
 
 #save_restoreSet_SeqPeriodInSeconds(60)
 
