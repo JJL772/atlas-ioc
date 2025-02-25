@@ -12,7 +12,7 @@ include $(TOP)/configure/CONFIG
 # databases, templates, substitutions like this
 #DB += xxx.db
 
-DB_INSTALLS += $(IOCADMIN)/db/iocAdminRTEMS.db
+#DB_INSTALLS += $(IOCADMIN)/db/iocAdminRTEMS.db
 IOCRELEASE_DB += iocRelease.db
 
 DB_INSTALLS += $(AUTOSAVE)/db/save_restoreStatus.db
