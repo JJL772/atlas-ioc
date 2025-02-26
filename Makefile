@@ -31,4 +31,7 @@ iocBoot_DEPEND_DIRS += $(filter %App,$(DIRS))
 
 # Add any additional dependency rules here:
 
+copy: install
+	cp -rv bin/* /sdf/group/cds/sw/epics/users/lorelli/epics/ioc/atlas/bin/
+
 include $(TOP)/configure/RULES_TOP
