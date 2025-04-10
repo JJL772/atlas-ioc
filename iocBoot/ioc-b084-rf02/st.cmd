@@ -81,6 +81,9 @@ traceIocInit()
 
 iocInit()
 
+# Mount with 9p
+p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs", "/test")
+
 ## Start any sequence programs
 #seq(sncExample, "user=V4_Axion")
 
