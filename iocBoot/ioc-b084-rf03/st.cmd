@@ -71,6 +71,6 @@ save_restoreSet_SeqPeriodInSeconds(20)
 iocInit()
 
 # Mount with 9p
-p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs", "/test")
+p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs", "/test", "trace")
 
 # vim: syn=csh
