@@ -30,6 +30,18 @@ epicsEnvSet("UNIT","RF03")
 epicsEnvSet("FAC","SYS0")
 
 #===========================================================
+# Autosave 9p mounting setup. nfsMount.cmd and friends
+# will configure out mounts, but we don't want NFS! Unmount
+# and use 9P instead.
+#===========================================================
+
+unmount("/data")
+unmount("/dat")
+
+# Mount with 9p
+p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs", "/data")
+
+#===========================================================
 # Autosave NFS mounting setup. The following code mounts
 # /data through autosave, giving it management control over
 # the mount. This allows autosave to automatically remount
@@ -52,6 +64,8 @@ epicsEnvSet("FAC","SYS0")
 dbLoadRecords("db/iocAdminRTEMS.db","IOC=IOC:B084:RF03")
 #dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B084:RF03")
 
+dbl()
+
 dbLoadRecords("db/save_restoreStatus.db", "P=IOC:B084:RF03:")
 
 dbLoadRecords("db/atlasRecords.db", "P=IOC:B084:RF03")
@@ -69,8 +83,5 @@ save_restoreSet_SeqPeriodInSeconds(20)
 #traceIocInit()
 
 iocInit()
-
-# Mount with 9p
-p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs", "/test", "trace")
 
 # vim: syn=csh

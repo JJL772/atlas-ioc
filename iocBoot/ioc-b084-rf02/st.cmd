@@ -34,6 +34,9 @@ epicsEnvSet("EVR_DEV1","EVR:B084:RF02")
 epicsEnvSet("UNIT","RF02")
 epicsEnvSet("FAC","SYS0")
 
+# Mount with 9p
+p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs", "/test", "trace")
+
 # =========================================================
 # Initialize PMC Type EVR on MVME3100 with PMC Carrier
 # =========================================================
@@ -63,6 +66,19 @@ dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B084:RF02")
 # Load some test records
 dbLoadRecords("db/atlasRecords.db", "P=IOC:B084:RF02")
 
+#=========================================================
+# Autosave Setup
+#=========================================================
+dbLoadRecords("db/save_restoreStatus.db", "P=IOC:B084:RF02:")
+
+save_restoreSet_SeqPeriodInSeconds(20)
+
+#=========================================================
+# Init autosave
+#=========================================================
+. "iocBoot/common/autosave_rtems.cmd"
+. "iocBoot/common/start_restore.cmd"
+
 # Let's load up some waveforms and scalars:
 #dbLoadDatabase("db/sinePower.db")
 #dbLoadDatabase("db/sineEnergy.db")
@@ -77,12 +93,9 @@ dbLoadRecords("db/atlasRecords.db", "P=IOC:B084:RF02")
 #  dbLoadRecords("db/Bsa.db", "DEVICE=IOC:B84:RF02:1,ATRB=PULSEID")
 
 ## Run this to trace the stages of iocInit
-traceIocInit()
+#traceIocInit()
 
 iocInit()
-
-# Mount with 9p
-p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs", "/test", "trace")
 
 ## Start any sequence programs
 #seq(sncExample, "user=V4_Axion")

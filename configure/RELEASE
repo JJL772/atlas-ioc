@@ -43,7 +43,6 @@ AUTOSAVE_MODULE_VERSION = R5.8-2.1.0
 #############################################
 IOCADMIN=$(EPICS_MODULES)/iocAdmin/$(IOCADMIN_MODULE_VERSION)
 AUTOSAVE=$(EPICS_MODULES)/autosave/$(AUTOSAVE_MODULE_VERSION)
-#IOCADMIN=/afs/slac/g/controls/development/users/lorelli/projects/rtems-testing/4.10.2/iocAdmin-2
 
 # Set RULES here if you want to use build rules from somewhere
 # other than EPICS_BASE:
