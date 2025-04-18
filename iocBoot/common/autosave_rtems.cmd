@@ -10,12 +10,14 @@ save_restoreSet_IncompleteSetsOk(1)
 # is meant by a dated backup file) and every reboot will write a new copy.
 #save_restoreSet_DatedBackupFiles(1)
 
+macroLine=malloc(512)
+snprintf(macroLine, 512, "P=%s", getenv("IOC_NAME"))
+
 # Specify where request and save files can be located (If this is a mount, we need to omit the /data prefix)
 set_requestfile_path("/data/autosave-req")
 set_savefile_path("/data/autosave")
 save_restoreSet_status_prefix(getenv("IOC_NAME"))
-addenv("IOC_NAME","P=",1)
-dbLoadRecords("db/save_restoreStatus.db",getenv("IOC_NAME"))
+dbLoadRecords("db/save_restoreStatus.db",macroLine)
 
 # Build restore file name
 # This is for manually-created request file
@@ -41,14 +43,10 @@ save_restoreSet_SeqPeriodInSeconds(600)
 
 # Time between failed .sav-file write and the retry.
 save_restoreSet_RetrySeconds(60)
-
-monitorfile=malloc(512)
-snprintf(monitorfile, 512, "P=%s", getenv("IOC_NAME"))
-
 #create_monitor_set("info_positions.req", 5, monitorfile)
 #create_monitor_set("info_settings.req", 30, monitorfile)
 
-free(monitorfile)
+free(macroLine)
 
-# vim: syntax=bash
+# vim: syntax=csh
 # End of script

@@ -10,6 +10,10 @@ setenv("ENGINEER", "Jeremy Lorelli (lorelli)")
 # Load common startup
 cexpsh("../../common/st.cmd.rtems")
 
+# Start the debugger
+ld("rtems-gdb-stub.obj")
+rtems_gdb_start(200,0)
+
 # Initalize hardware
 cexpsh("iocBoot/common/init_evr.cmd")
 cexpsh("iocBoot/common/init_qdc.cmd")
@@ -34,8 +38,14 @@ epicsEnvSet("EVR_DEV1","EVR:B084:RF02")
 epicsEnvSet("UNIT","RF02")
 epicsEnvSet("FAC","SYS0")
 
+#=========================================================
+# 9P Mounting (replacing NFS /data mount)
+#=========================================================
+unmount("/data")
+unmount("/dat")
+
 # Mount with 9p
-p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs", "/test", "trace")
+p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs/ioc-b084-rf02", "/data")
 
 # =========================================================
 # Initialize PMC Type EVR on MVME3100 with PMC Carrier
@@ -56,7 +66,9 @@ p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs", "/test", "
 #dbLoadRecords("db/PMC-trig.db","IOC=IOC:B84:RF02,LOCA=B84,UNIT=02,SYS=SYS0")
 # =============================================================================
 
-## Load record instances
+#=========================================================
+# Load records
+#=========================================================
 #dbLoadRecords("db/dbExample1.db", "user=V4_Axion")
 #dbLoadRecords("db/dbExample2.db", "user=V4_Axion, no=1, scan = 1 second")
 
@@ -67,17 +79,9 @@ dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B084:RF02")
 dbLoadRecords("db/atlasRecords.db", "P=IOC:B084:RF02")
 
 #=========================================================
-# Autosave Setup
-#=========================================================
-dbLoadRecords("db/save_restoreStatus.db", "P=IOC:B084:RF02:")
-
-save_restoreSet_SeqPeriodInSeconds(20)
-
-#=========================================================
 # Init autosave
 #=========================================================
-. "iocBoot/common/autosave_rtems.cmd"
-. "iocBoot/common/start_restore.cmd"
+cexpsh("iocBoot/common/autosave_rtems.cmd")
 
 # Let's load up some waveforms and scalars:
 #dbLoadDatabase("db/sinePower.db")
@@ -96,6 +100,11 @@ save_restoreSet_SeqPeriodInSeconds(20)
 #traceIocInit()
 
 iocInit()
+
+# Start autosave
+cexpsh("iocBoot/common/start_restore.cmd")
+
+#save_restoreSet_Debug(999)
 
 ## Start any sequence programs
 #seq(sncExample, "user=V4_Axion")

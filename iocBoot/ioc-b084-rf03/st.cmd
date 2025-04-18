@@ -39,7 +39,7 @@ unmount("/data")
 unmount("/dat")
 
 # Mount with 9p
-p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs", "/data")
+p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs/ioc-b084-rf03", "/data")
 
 #===========================================================
 # Autosave NFS mounting setup. The following code mounts
@@ -60,28 +60,29 @@ p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs", "/data")
 #save_restoreRemountThreshold = 10
 
 #===========================================================
+# Loading records
+#===========================================================
 
 dbLoadRecords("db/iocAdminRTEMS.db","IOC=IOC:B084:RF03")
 #dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B084:RF03")
 
-dbl()
-
-dbLoadRecords("db/save_restoreStatus.db", "P=IOC:B084:RF03:")
-
 dbLoadRecords("db/atlasRecords.db", "P=IOC:B084:RF03")
 dbLoadRecords("db/genRecords.db", "P=IOC:B084:RF03")
-
-save_restoreSet_SeqPeriodInSeconds(20)
 
 #=========================================================
 # Init autosave
 #=========================================================
-. "iocBoot/common/autosave_rtems.cmd"
-. "iocBoot/common/start_restore.cmd"
+cexpsh("iocBoot/common/autosave_rtems.cmd")
+
+# For testing
+save_restoreSet_SeqPeriodInSeconds(20)
 
 ## Run this to trace the stages of iocInit
 #traceIocInit()
 
 iocInit()
+
+# Start autosave
+cexpsh("iocBoot/common/start_restore.cmd")
 
 # vim: syn=csh
