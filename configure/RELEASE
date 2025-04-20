@@ -36,7 +36,7 @@ EPICS_BASE = $(BASE_SITE_TOP)/$(BASE_MODULE_VERSION)
 # Module versions
 #############################################
 IOCADMIN_MODULE_VERSION = R3.1.16-1.4.0
-AUTOSAVE_MODULE_VERSION = R5.8-2.1.0
+AUTOSAVE_MODULE_VERSION = R5.11-2.1.0
 
 #############################################
 # Module paths

@@ -83,6 +83,11 @@ dbLoadRecords("db/atlasRecords.db", "P=IOC:B084:RF02")
 #=========================================================
 cexpsh("iocBoot/common/autosave_rtems.cmd")
 
+# For testing:
+save_restoreSet_SeqPeriodInSeconds(20)
+
+#save_restoreSet_Debug(999)
+
 # Let's load up some waveforms and scalars:
 #dbLoadDatabase("db/sinePower.db")
 #dbLoadDatabase("db/sineEnergy.db")
@@ -103,10 +108,5 @@ iocInit()
 
 # Start autosave
 cexpsh("iocBoot/common/start_restore.cmd")
-
-#save_restoreSet_Debug(999)
-
-## Start any sequence programs
-#seq(sncExample, "user=V4_Axion")
 
 # vim: syn=csh
