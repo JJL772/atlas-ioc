@@ -9,7 +9,6 @@ DIRS += $(wildcard *App)
 DIRS += $(wildcard *Top)
 DIRS += $(wildcard iocBoot)
 
-atlasApp_DEPEND_DIRS += netUtilsApp
 atlasApp_DEPEND_DIRS += epicsTestApp
 
 # The build order is controlled by these dependency rules:

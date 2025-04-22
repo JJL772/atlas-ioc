@@ -15,7 +15,6 @@ DBD += atlas.dbd
 # atlas.dbd will be made up from these files:
 atlas_DBD += base.dbd
 atlas_DBD += iocAdmin.dbd
-atlas_DBD += netUtils.dbd
 atlas_DBD += epicsTest.dbd
 ifeq ($(EPICS_V7),YES)
 atlas_DBD += asSupport.dbd
@@ -52,7 +51,6 @@ atlas_SRCS_vxWorks += -nil-
 # Finally link to the EPICS Base libraries
 atlas_LIBS += devIocStats
 atlas_LIBS += autosave
-atlas_LIBS += netUtils
 atlas_LIBS += epicsTest
 atlas_LIBS += $(EPICS_BASE_IOC_LIBS) 
 ifeq ($(EPICS_V7),YES)
