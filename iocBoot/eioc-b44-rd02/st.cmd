@@ -67,7 +67,7 @@ dbLoadRecords("db/iocAdminRTEMS.db","IOC=EIOC:B44:RD02")
 #dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B084:RF03")
 
 dbLoadRecords("db/atlasRecords.db", "P=EIOC:B44:RD02")
-dbLoadRecords("db/genRecords.db", "P=EIOC:B44:RD02")
+dbLoadRecords("db/genRecordsSmall.db", "P=EIOC:B44:RD02")
 
 #=========================================================
 # Init autosave
