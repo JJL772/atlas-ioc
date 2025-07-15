@@ -19,6 +19,7 @@ DBD += epicsTest.dbd
 epicsTest_SRCS += fileSystemTest.cpp
 epicsTest_SRCS += getopt.cpp
 epicsTest_SRCS += testUtils.cpp
+epicsTest_SRCS += tcploop.cpp
 
 epicsTest_LIBS += $(EPICS_BASE_IOC_LIBS)
 

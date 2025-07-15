@@ -1,6 +1,2 @@
-# provide definitions such as
-#include "xxxRecord.dbd"
-#device(xxx,CONSTANT,devXxxSoft,"SoftChannel")
-#driver(myDriver)
 registrar(fsTest_register)
-#variable(myVariable)
+registrar(tcploop_register)
