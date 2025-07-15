@@ -25,7 +25,6 @@ atlas_registerRecordDeviceDriver(pdbbase)
 epicsEnvSet("LOCA","B084")
 
 epicsEnvSet("IOC_NAME","EIOC:B44:RD02")
-#epicsEnvSet("EVR_DEV1","EVR:B084:RF02")
 epicsEnvSet("UNIT","RD02")
 epicsEnvSet("FAC","SYS0")
 
@@ -39,7 +38,7 @@ unmount("/data")
 unmount("/dat")
 
 # Mount with 9p
-p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs/eioc-b44-rd02", "/data")
+p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs/eioc-b44-rd02", "/data", "msize=4096")
 
 #===========================================================
 # Autosave NFS mounting setup. The following code mounts
