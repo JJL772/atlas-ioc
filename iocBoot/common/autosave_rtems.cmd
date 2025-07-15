@@ -1,3 +1,7 @@
+#=========================================================#
+# Autosave configuration for RTEMS IOCs
+#=========================================================#
+
 save_restoreSet_Debug(0)
 
 # Ok to restore a save set that has missing values (no CA connection to PV)?

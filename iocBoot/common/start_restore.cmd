@@ -1,3 +1,7 @@
+#=========================================================#
+# Startup autosave for hard IOCs
+#=========================================================#
+
 # Wait before building autosave files
 epicsThreadSleep(1)
 

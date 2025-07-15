@@ -1,38 +1,40 @@
+#=========================================================#
+# Common autosave setup code for LinuxRT and other flavors
+# of soft IOCs
+#=========================================================#
 
-#set_requestfile_path("$(TOP)/iocBoot/$(IOC)", "")
+save_restoreSet_Debug(0)
 
-#set_savefile_path("$(TOP)/iocBoot/$(IOC)/autosave")
-
-#set_pass0_restoreFile("auto_settings.sav", "P=${IOC}:")
-#set_pass1_restoreFile("auto_settings.sav", "P=${IOC}:")
-
-save_restoreSet_status_prefix("autosave:")
-save_restoreSet_Debug(1)
-
-# Bad CA connections are OK, we can save 'most' of the file
+# Ok to restore a save set that has missing values (no CA connection to PV)?
+# Ok to save a file if some CA connections are bad?
 save_restoreSet_IncompleteSetsOk(1)
 
-save_restoreSet_NumSeqFiles(10)
-save_restoreSet_SeqPeriodInSeconds(5)
+# In the restore operation, a copy of the save file will be written.  The
+# file name can look like "auto_settings.sav.bu", and be overwritten every
+# reboot, or it can look like "auto_settings.sav_020306-083522" (this is what
+# is meant by a dated backup file) and every reboot will write a new copy.
+#save_restoreSet_DatedBackupFiles(1)
 
-# Configure save/request paths
+# Specify where request and save files can be located (If this is a mount, we need to omit the /data prefix)
+set_requestfile_path("${IOC_DATA}/${IOC}/autosave-req")
 set_savefile_path("${IOC_DATA}/${IOC}/autosave")
-#set_requestfile_path("${TOP}/iocBoot/${IOC}/autosave-req")
+save_restoreSet_status_prefix("${IOC_NAME}")
+dbLoadRecords("db/save_restoreStatus.db", "P=${IOC}:")
 
-set_pass0_restoreFile("info_positions.sav", "P=${IOC}")
-set_pass1_restoreFile("info_positions.sav", "P=${IOC}")
-
-#set_requestfile_path("${TOP}/iocBoot/${IOC}", "")
-set_requestfile_path("${TOP}/db")
-
-dbLoadRecords("$(AUTOSAVE)/asApp/Db/save_restoreStatus.db", "P=${IOC}:")
-
-makeAutosaveFiles()
-
+# Specify what save files should be restored when.
+# Up to eight files can be specified for each pass.
+set_pass0_restoreFile("info_positions.sav")
+set_pass0_restoreFile("info_settings.sav")
+set_pass1_restoreFile("info_settings.sav")
+ 
+# Number of sequenced backup files (e.g., 'info_settings.sav0') to write
 save_restoreSet_NumSeqFiles(3)
-save_restoreSet_SeqPeriodInSeconds(10)
 
-create_monitor_set("info_positions.req", 5, "P=${IOC}")
-create_monitor_set("info_settings.req", 30, "P=${IOC}")
+# Time interval between sequenced backups
+save_restoreSet_SeqPeriodInSeconds(600)
 
-# vim: syntax=bash
+# Time between failed .sav-file write and the retry.
+save_restoreSet_RetrySeconds(60)
+
+# vim: syntax=csh
+# End of script

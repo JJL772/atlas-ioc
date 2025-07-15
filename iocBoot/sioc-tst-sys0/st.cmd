@@ -11,15 +11,16 @@ cd "${TOP}"
 dbLoadDatabase "dbd/atlas.dbd"
 atlas_registerRecordDeviceDriver pdbbase
 
-dbLoadRecords("db/test-records.db", "P=${IOC}")
-dbLoadRecords("db/genRecords.db", "P=${IOC}")
-
-cd "${TOP}/iocBoot/${IOC}"
+dbLoadRecords("db/genRecords.db", "P=${IOC}:")
 
 < "${TOP}/iocBoot/common/autosave.cmd"
 
+cd "${TOP}/iocBoot/${IOC}"
+
 save_restoreSet_CAReconnect(1)
 
-atlasPvaInit("${IOC}")
+#atlasPvaInit("${IOC}")
 
 iocInit
+
+< "${TOP}/iocBoot/common/start_restore.soft.cmd"

@@ -66,7 +66,7 @@ dbLoadRecords("db/iocAdminRTEMS.db","IOC=EIOC:B44:RD02")
 #dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B084:RF03")
 
 dbLoadRecords("db/atlasRecords.db", "P=EIOC:B44:RD02")
-dbLoadRecords("db/genRecordsSmall.db", "P=EIOC:B44:RD02")
+dbLoadRecords("db/genRecordsSmall.db", "P=EIOC:B44:RD02:")
 
 #=========================================================
 # Init autosave
@@ -75,9 +75,6 @@ cexpsh("iocBoot/common/autosave_rtems.cmd")
 
 # For testing
 save_restoreSet_SeqPeriodInSeconds(20)
-
-## Run this to trace the stages of iocInit
-#traceIocInit()
 
 iocInit()
 

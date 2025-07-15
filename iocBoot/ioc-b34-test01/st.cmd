@@ -47,24 +47,24 @@ epicsEnvSet("IOC_NAME","IOC:B34:TEST01")
 #===========================================================
 
 dbLoadRecords("db/iocAdminRTEMS.db","IOC=IOC:B34:TEST01")
-#dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B084:RF03")
+#dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B34:TEST01")
 
 dbLoadRecords("db/save_restoreStatus.db", "P=IOC:B34:TEST01:")
 
 #dbLoadRecords("db/atlasRecords.db", "P=IOC:B34:TEST01")
-dbLoadRecords("db/genRecords.db", "P=IOC:B34:TEST01")
+dbLoadRecords("db/genRecords.db", "P=IOC:B34:TEST01:")
 
 #save_restoreSet_SeqPeriodInSeconds(60)
 
 #=========================================================
 # Init autosave
 #=========================================================
-. "iocBoot/common/autosave_rtems.cmd"
-. "iocBoot/common/start_restore.cmd"
-
-## Run this to trace the stages of iocInit
-#traceIocInit()
+cexpsh("iocBoot/common/autosave_rtems.cmd")
 
 iocInit()
 
+# Start autosave
+cexpsh("iocBoot/common/start_restore.cmd")
+
 # vim: syn=csh
+# End of file
