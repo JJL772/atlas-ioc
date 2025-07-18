@@ -21,6 +21,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
+#include <sys/socket.h>
 
 #include "epicsExport.h"
 #include "iocsh.h"
@@ -37,7 +38,8 @@ static void tcploop_CallFunc(const iocshArgBuf* args)
     int size = 4096, count = 16;
     char addr[64] = {};
     int port = 4096;
-    while ((opt = getopt_s(args[0].aval.ac, args[0].aval.av, "hs:c:a:p:", &state)) != -1) {
+    uint32_t interval = 0;
+    while ((opt = getopt_s(args[0].aval.ac, args[0].aval.av, "hs:c:a:p:i:", &state)) != -1) {
         switch (opt) {
         case 'h':
             return usage();
@@ -53,9 +55,18 @@ static void tcploop_CallFunc(const iocshArgBuf* args)
         case 'a':
             strcpy(addr, state.optarg);
             break;
+        case 'i':
+            interval = 1000 * atof(optarg);
+            printf("Sleeping for %u micros\n", interval);
+            break;
         default:
             return usage();
         }
+    }
+
+    if (interval > 30000000) {
+        printf("max interval is 30 seconds\n");
+        return;
     }
 
     if (!*addr) {
@@ -105,36 +116,47 @@ static void tcploop_CallFunc(const iocshArgBuf* args)
 
         printf("[%02d] Send %d bytes\n", i, size);
 
-        ssize_t r = recv(sock, buf, size, 0);
-        if (r < 0) {
-            perror("recv");
-            continue;
+        ssize_t rem = size, off = 0, guard = 100;
+        while (rem > 0) {
+            ssize_t r = recv(sock, ((char*)buf) + off, rem, 0);
+            if (r < 0) {
+                perror("recv");
+                break;
+            }
+            if (--guard < 0) // Just to avoid locking up the system if something goes wrong.
+                break;
+            rem -= r;
+            off += r;
         }
         
-        if (r != size) {
-            printf("[%02d] Recv %ld bytes, but expected %d\n", i, r, size);
+        if (rem != 0) {
+            printf("[%02d] Recv %ld bytes, but expected %d\n", i, rem, size);
             continue;
         }
 
-        printf("[%02d] Recv %ld bytes -- ", i, r);
+        printf("[%02d] Recv %d bytes -- ", i, size);
 
         for (int k = 0; k < size/4; ++k) {
             if (buf[k] != patterns[i % 4]) {
                 printf("Invalid starting at offset %d\n", k * 4);
                 printf("--------- DUMP DATA ---------\n");
                 char* b = (char*)buf;
-                for (k = 0; k < size; ++k) {
+                for (k = 0; k < size; k+=16) {
                     printf("%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c\n",
                         b[0], b[1], b[2], b[3], b[4], b[5], b[6],
                         b[7], b[8], b[9], b[10], b[11], b[12], b[13],
                         b[14], b[15]);
                 }
                 printf("--------- END DUMP ---------\n");
-                continue;
+                goto done;
             }
         }
 
         printf("Valid\n");
+    done:
+        if (interval)
+            usleep(interval);
+        continue;
     }
 
     free(buf);
