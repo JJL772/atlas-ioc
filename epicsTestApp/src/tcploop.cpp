@@ -42,7 +42,8 @@ static void tcploop_CallFunc(const iocshArgBuf* args)
     while ((opt = getopt_s(args[0].aval.ac, args[0].aval.av, "hs:c:a:p:i:", &state)) != -1) {
         switch (opt) {
         case 'h':
-            return usage();
+            usage();
+            return;
         case 'c':
             count = atoi(state.optarg);
             break;
@@ -60,7 +61,8 @@ static void tcploop_CallFunc(const iocshArgBuf* args)
             printf("Sleeping for %u micros\n", interval);
             break;
         default:
-            return usage();
+            usage();
+            return;
         }
     }
 
