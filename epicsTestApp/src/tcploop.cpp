@@ -111,14 +111,20 @@ static void tcploop_CallFunc(const iocshArgBuf* args)
             buf[k] = patterns[i % 4];
         }
 
-        if (send(sock, buf, size, 0) < 0) {
-            perror("send");
-            continue;
-        }
+        ssize_t toSend = size, off = 0;
+        do {
+            // Split between multiple TCP segments (ideally)
+            if (send(sock, (uint8_t*)buf + off, toSend < 256 ? toSend : 256, 0) < 0)
+                perror("send");
+            off += 256;
+            toSend -= 256;
+            usleep(rand() % 500);
+        } while(toSend > 0);
 
         printf("[%02d] Send %d bytes\n", i, size);
 
-        ssize_t rem = size, off = 0, guard = 100;
+        ssize_t rem = size,guard = 100;
+        off = 0;
         while (rem > 0) {
             ssize_t r = recv(sock, ((char*)buf) + off, rem, 0);
             if (r < 0) {

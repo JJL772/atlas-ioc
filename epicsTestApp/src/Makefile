@@ -23,7 +23,7 @@ epicsTest_SRCS += tcploop.cpp
 
 epicsTest_LIBS += $(EPICS_BASE_IOC_LIBS)
 
-USR_CXXFLAGS += -std=c++11
+USR_CXXFLAGS += -std=gnu++11
 
 #===========================
 

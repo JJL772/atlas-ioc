@@ -1,3 +1,6 @@
+#include <cstdlib>
+#include <cstdio>
+#include <cstdint>
 
 #include <epicsExport.h>
 #include <epicsStdio.h>
@@ -6,7 +9,6 @@
 #include <epicsStdlib.h>
 #include <cantProceed.h>
 #include <epicsString.h>
-#include <stdlib.h>
 #include <memory.h>
 #include <errno.h>
 #include <epicsTime.h>
@@ -16,6 +18,7 @@
 #include <epicsTime.h>
 #include <math.h>
 #include <epicsAtomic.h>
+#include <string.h>
 
 #include "testUtils.h"
 #include "getopt_s.h"
@@ -137,8 +140,13 @@ void fsTestReport() {
 	for (test_s* s = s_tests; s; s = s->next) {
 		epicsGuard<epicsMutex> guard(s->mutex);
 		epicsStdoutPrintf("%s, %d iterations and %d failures, %.2f%% fail rate, write %.2f MiB/s, read %.2f MiB/s. (%s)\n",
-			s->file, s->num, s->failures, float(s->failures) / float(s->num ? s->num : 1), s->write_bytesPerSec / MIB, s->read_bytesPerSec / MIB,
-            s->run ? "RUNNING" : (s->failures > 0 ? "FAIL" : "SUCCESS"));
+			s->file,
+            s->num,
+            s->failures,
+            float(s->failures) / float(s->num ? s->num : 1),
+            s->write_bytesPerSec / MIB, s->read_bytesPerSec / MIB,
+            s->run ? "RUNNING" : (s->failures > 0 ? "FAIL" : "SUCCESS")
+        );
 	}
 }
 
@@ -291,8 +299,13 @@ static void fs_test_thread(void* param) {
 
             // Print diagnostics after each 128 iters
             if (p->test->num % 128 == 0) {
-                printf("%s: %d iterations, %d failures (%.2f%% fail rate), write %.2f MiB/s, read %.2f MiB/s\n", p->test->file, p->test->num, p->test->failures, float(p->test->failures) / float(p->test->num),
-                        p->test->write_bytesPerSec / MIB, p->test->read_bytesPerSec / MIB);
+                printf("%s: %d iterations, %d failures (%.2f%% fail rate), write %.2f MiB/s, read %.2f MiB/s\n", 
+                    p->test->file,
+                    p->test->num,
+                    p->test->failures,
+                    float(p->test->failures) / float(p->test->num),
+                    p->test->write_bytesPerSec / MIB, p->test->read_bytesPerSec / MIB
+                );
             }
 		}
 
@@ -345,3 +358,4 @@ static void dummyThreadProc(void* p) {
         epicsThreadSleep(0.01);
     }
 }
+
