@@ -15,7 +15,7 @@ save_restoreSet_IncompleteSetsOk(1)
 #save_restoreSet_DatedBackupFiles(1)
 
 macroLine=malloc(512)
-snprintf(macroLine, 512, "P=%s", getenv("IOC_NAME"))
+snprintf(macroLine, 512, "P=%s:", getenv("IOC_NAME"))
 
 # Specify where request and save files can be located (If this is a mount, we need to omit the /data prefix)
 set_requestfile_path("/data/autosave-req")
