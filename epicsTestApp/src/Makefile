@@ -20,10 +20,12 @@ epicsTest_SRCS += fileSystemTest.cpp
 epicsTest_SRCS += getopt.cpp
 epicsTest_SRCS += testUtils.cpp
 epicsTest_SRCS += tcploop.cpp
+epicsTest_SRCS += fileSystemPerf.c
 
 epicsTest_LIBS += $(EPICS_BASE_IOC_LIBS)
 
 USR_CXXFLAGS += -std=gnu++11
+USR_CFLAGS += -std=gnu99
 
 #===========================
 

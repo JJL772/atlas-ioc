@@ -189,7 +189,7 @@ static void fs_test_thread(void* param) {
 		return;
 	}
 
-	const ssize_t workBufSize = 512;
+	const ssize_t workBufSize = 1024;
 
 	epicsUInt8* buf = (epicsUInt8*)aligned_alloc_p(16, workBufSize);
 	if (!buf) {

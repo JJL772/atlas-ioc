@@ -1,2 +1,3 @@
 registrar(fsTest_register)
 registrar(tcploop_register)
+registrar(fsperf_register)
