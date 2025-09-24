@@ -12,3 +12,4 @@ iocBoot/*/autosave/
 *.log
 *.local
 /include/
+core.*
