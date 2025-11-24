@@ -39,7 +39,7 @@ unmount("/data")
 unmount("/dat")
 
 # Mount with 9p
-p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs/ioc-b084-rf03", "/data")
+p9Mount("16626.2211@s3dflclsdevnfs001!564", "/fs/weka/sdfdata/cds/dev/ioc/ioc-b084-rf03", "/data")
 
 #===========================================================
 # Autosave NFS mounting setup. The following code mounts
