@@ -28,7 +28,7 @@
 #include <iocsh.h>
 #include <epicsThread.h>
 
-#define DATA_TO_WRITE (50 * 1000000)
+#define DATA_TO_WRITE (10 * 1000000)
 #define SMALL_FILES 4096
 
 #define MIN(x, y) ((x) < (y) ? (x) : (y))
@@ -239,6 +239,8 @@ fp_run_tests(const char* path)
   fp_run_io_test(path, 2048);
   fp_run_io_test(path, 4096);
   fp_run_io_test(path, 8192);
+  fp_run_io_test(path, 16384);
+  fp_run_io_test(path, 32768);
 
   fp_run_small_files(path);
 }
