@@ -8,7 +8,7 @@ setenv("LOCATION", "B084:RF02")
 setenv("IOC_NAME", "IOC:B084:RF02")
 setenv("ENGINEER", "Jeremy Lorelli (lorelli)")
 # Load common startup
-cexpsh("../../common/st.cmd.rtems")
+#cexpsh("${EPICS_IOCS}/common/st.cmd.rtems")
 
 # Start the debugger
 ld("rtems-gdb-stub.obj")
@@ -45,7 +45,11 @@ unmount("/data")
 unmount("/dat")
 
 # Mount with 9p
-p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs/ioc-b084-rf02", "/data")
+#p9Mount("16626.2211@s3dflclsdevnfs001!564", "/sdf/data/cds/dev/ioc/ioc-b084-rf02", "/data")
+p9Mount("16626.2211@s3dflclsdevnfs001!564", "/fs/weka/sdfdata/cds/dev/ioc/ioc-b084-rf02", "/data")
+
+# Testing directories on /data
+nfsMount(getenv("NFS_FILE_SYSTEM"), iocData, "/data_nfs")
 
 # =========================================================
 # Initialize PMC Type EVR on MVME3100 with PMC Carrier

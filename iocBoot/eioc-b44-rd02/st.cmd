@@ -38,7 +38,11 @@ unmount("/data")
 unmount("/dat")
 
 # Mount with 9p
-p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs/eioc-b44-rd02", "/data", "msize=4096")
+#p9Mount("16626.2211@134.79.217.70", "/scratch/lorelli/dummy-diod-fs/eioc-b44-rd02", "/data", "msize=4096")
+p9Mount("16626.2211@s3dflclsdevnfs001!564", "/fs/weka/sdfdata/cds/dev/ioc/eioc-b44-rd02", "/data")
+
+# Testing directories on /data
+nfsMount(getenv("NFS_FILE_SYSTEM"), iocData, "/data_nfs")
 
 #===========================================================
 # Autosave NFS mounting setup. The following code mounts
@@ -71,14 +75,14 @@ dbLoadRecords("db/genRecordsSmall.db", "P=EIOC:B44:RD02:")
 #=========================================================
 # Init autosave
 #=========================================================
-cexpsh("iocBoot/common/autosave_rtems.cmd")
+#cexpsh("iocBoot/common/autosave_rtems.cmd")
 
 # For testing
-save_restoreSet_SeqPeriodInSeconds(20)
+#save_restoreSet_SeqPeriodInSeconds(20)
 
 iocInit()
 
 # Start autosave
-cexpsh("iocBoot/common/start_restore.cmd")
+#cexpsh("iocBoot/common/start_restore.cmd")
 
 # vim: syn=csh
