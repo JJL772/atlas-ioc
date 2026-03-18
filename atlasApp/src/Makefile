@@ -19,6 +19,8 @@ atlas_DBD += epicsTest.dbd
 ifeq ($(EPICS_V7),YES)
 atlas_DBD += asSupport.dbd
 #atlas_DBD += atlasPva.dbd
+atlas_DBD += PVAServerRegister.dbd
+atlas_DBD += qsrv.dbd
 else
 atlas_DBD += autosaveSupport.dbd
 endif
@@ -52,10 +54,13 @@ atlas_SRCS_vxWorks += -nil-
 atlas_LIBS += devIocStats
 atlas_LIBS += autosave
 atlas_LIBS += epicsTest
-atlas_LIBS += $(EPICS_BASE_IOC_LIBS) 
+ifeq ($(EPICS_V7),YES)
+atlas_LIBS += qsrv
+endif
 ifeq ($(EPICS_V7),YES)
 atlas_LIBS += $(EPICS_BASE_PVA_CORE_LIBS)
 endif
+atlas_LIBS += $(EPICS_BASE_IOC_LIBS)
 
 #===========================
 
