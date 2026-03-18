@@ -13,6 +13,7 @@ include $(TOP)/configure/CONFIG
 #DB += xxx.db
 
 DB_INSTALLS += $(IOCADMIN)/db/iocAdminRTEMS.db
+DB_INSTALLS += $(IOCADMIN)/db/iocAdminSoft.db
 IOCRELEASE_DB += iocRelease.db
 
 DB_INSTALLS += $(AUTOSAVE)/db/save_restoreStatus.db

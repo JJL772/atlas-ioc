@@ -12,6 +12,7 @@ dbLoadDatabase "dbd/atlas.dbd"
 atlas_registerRecordDeviceDriver pdbbase
 
 dbLoadRecords("db/genRecords.db", "P=${IOC}:")
+dbLoadRecords("db/iocAdminSoft.db", "IOC=SIOC:TST:SYS0")
 
 < "${TOP}/iocBoot/common/autosave.cmd"
 
