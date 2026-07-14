@@ -1,14 +1,6 @@
-## Example RTEMS startup script
-
-## You may have to change Jupiter to something else
-## everywhere it appears in this file
-
-
 setenv("LOCATION", "B084:RF02")
 setenv("IOC_NAME", "IOC:B084:RF02")
 setenv("ENGINEER", "Jeremy Lorelli (lorelli)")
-# Load common startup
-#cexpsh("${EPICS_IOCS}/common/st.cmd.rtems")
 
 # Start the debugger
 ld("rtems-gdb-stub.obj")
@@ -73,9 +65,6 @@ nfsMount(getenv("NFS_FILE_SYSTEM"), iocData, "/data_nfs")
 #=========================================================
 # Load records
 #=========================================================
-#dbLoadRecords("db/dbExample1.db", "user=V4_Axion")
-#dbLoadRecords("db/dbExample2.db", "user=V4_Axion, no=1, scan = 1 second")
-
 dbLoadRecords("db/iocAdminRTEMS.db","IOC=IOC:B084:RF02")
 dbLoadRecords("db/iocRelease.db"   ,"IOC=IOC:B084:RF02")
 
@@ -89,8 +78,6 @@ cexpsh("iocBoot/common/autosave_rtems.cmd")
 
 # For testing:
 save_restoreSet_SeqPeriodInSeconds(20)
-
-#save_restoreSet_Debug(999)
 
 # Let's load up some waveforms and scalars:
 #dbLoadDatabase("db/sinePower.db")
